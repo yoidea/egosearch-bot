@@ -1,0 +1,21 @@
+{
+  "name": "egosearch-bot",
+  "version": "1.0.0",
+  "description": "Slack bot which is able to egosearch on twitter, niconico, and so on.",
+  "main": "index.js",
+  "repository": "https://github.com/yoidea/egosearch-bot.git",
+  "author": "@yoidea",
+  "license": "MIT",
+  "dependencies": {
+    "@types/dotenv": "^6.1.1",
+    "dotenv": "^8.0.0",
+    "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "hook": "node index.js",
+    "build": "tsc index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
